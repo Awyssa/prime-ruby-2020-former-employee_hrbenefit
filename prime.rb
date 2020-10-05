@@ -2,7 +2,7 @@ require 'prime'
 
 def prime?(n)
 
-  n.each do |i|
+  n.map do |i|
     if i.prime?
       true
     else

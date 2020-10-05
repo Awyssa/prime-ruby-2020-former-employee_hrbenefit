@@ -3,6 +3,10 @@ require 'prime'
 def prime?(n)
 
   n.each do |i|
-    i.prime?
+    if i.prime?
+      true
+    else
+      return false
+    end
   end
 end
